@@ -202,13 +202,13 @@ const database = {
 }
 
 export const getBands = () => {
-	database.bands.map(bandParam => ({...bandParam}))
+	return database.bands.map(bandParam => ({...bandParam}))
 }
 
 export const getVenues = () => {
-	database.venues.map(venueParam => ({...venueParam}))
+	return database.venues.map(venueParam => ({...venueParam}))
 }
 
 export const getBookings = () => {
-	database.bookings.map(bookingParam => ({...bookingParam}))
+	return database.bookings.map(bookingParam => ({...bookingParam}))
 }

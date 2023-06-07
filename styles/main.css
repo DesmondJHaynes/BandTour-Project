@@ -1,3 +1,58 @@
 /* https://fonts.google.com/specimen/Metal+Mania */
 
-@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1508973379184-7517410fb0bc?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=joel-muniz-RLH_Wmlnj2k-unsplash.jpg");
+}
+
+#container{
+    font-family: 'Metal Mania', cursive;
+    margin: 1rem;
+    
+}
+
+.site-info {
+    font-size: 20px;
+    border: solid 3px black;
+}
+
+h1 {
+    color: rgb(240, 240, 240)
+}
+
+h2 {
+    text-decoration: line-through;
+}
+
+.bookings {
+    padding: 10px 15px;
+    margin: 1px;
+    color: #dadada
+}
+
+.venues-bands {
+    display: flex;
+    justify-content: space-around;
+    margin: 1px;
+    color: #dadada
+    
+}
+
+.bands, .venues {
+    padding: 25px;
+    border: none;
+    list-style-type: none;
+
+}
+
+ul {
+     list-style-type: none;
+}
